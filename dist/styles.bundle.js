@@ -35,7 +35,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n\nbody{\n    -webkit-animation: bgSlider 75s infinite;\n            animation: bgSlider 75s infinite;\n    \n}\n\n@-webkit-keyframes bgSlider{\n    0%   {background: #72c92c;}\n    25%  {background: #26c0b6;}\n    50%  {background: #075eec;}\n    75%  {background: #dac303;}\n    100% {background: #f15906;}\n}\n\n@keyframes bgSlider{\n    0%   {background: #72c92c;}\n    25%  {background: #26c0b6;}\n    50%  {background: #075eec;}\n    75%  {background: #dac303;}\n    100% {background: #f15906;}\n}", ""]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\r\n\r\nbody{\r\n    margin: 0;\r\n    padding: 0;\r\n    -webkit-animation: bgSlider 60s infinite;\r\n            animation: bgSlider 60s infinite;   \r\n}\r\n\r\n@-webkit-keyframes bgSlider{\r\n    0%   {background: #72c92c;}\r\n    25%  {background: #26c0b6;}\r\n    50%  {background: #075eec;}\r\n    75%  {background: #dac303;}\r\n    100% {background: #f15906;}\r\n}\r\n\r\n@keyframes bgSlider{\r\n    0%   {background: #72c92c;}\r\n    25%  {background: #26c0b6;}\r\n    50%  {background: #075eec;}\r\n    75%  {background: #dac303;}\r\n    100% {background: #f15906;}\r\n}", ""]);
 
 // exports
 

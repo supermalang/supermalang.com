@@ -1,17 +1,55 @@
-.message-accueil{
-    font-family: 'Bungee', cursive;
-    font-size: 24px;
-    color: #fff;
-    width: 600px;
-    line-height: 500px;
-    text-align: center;
+.welcome-bar{
+    height: 100vh;
+    width: 100vw;
+    /*background: #09C;*/
+}
+.greetings{
+    width: 70vw;
+    padding-top:40vh;
     margin: 0 auto;
-    animation: showup 7s infinite;
+    text-align: center;
+    position:relative;
+}
+.text-hello{
+    font-size: 3em;
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    animation: reveal 2.5s linear;
+}
+.text-iam{
+    position: relative;
+    animation: slideInRight 1.5s linear;
+    font-family: 'Kalam', cursive;
+    font-size: 2em;
+    color: #eee;
+}
+.text-welcome{
+    display: block;
+    animation: slideInUp 2.5s ease-in-out;
+    font-family:Indie Flower;
+    font-size: 1.8em;
+    color: #fff;
 }
 
-@keyframes showup {
+@keyframes reveal {
     0% {opacity:0;}
-    20% {opacity:1;}
-    80% {opacity:1;}
-    100% {opacity:0;}
+    60% {opacity:0.8;}
+    100% {opacity:1;}
+}
+@keyframes slideInRight {
+    0% {opacity:0;margin-left:-200px;}
+    75% {opacity:0;margin-left:-200px;}
+    85% {opacity:0;margin-left:-200px;}
+    100% {opacity:1;margin-left:0;}
+}
+@keyframes slideInUp{
+    0% {opacity:0;margin-top:100px;}
+    75% {opacity:0;margin-top:100px;}
+    85% {opacity:0;margin-top:100px;}
+    100% {opacity:1;margin-top:0;}
+}
+@keyframes goLeftDown {
+    0%{top:0;}
+    80%{top:0;}
+    100%{top:100px;}
 }

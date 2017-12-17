@@ -1,0 +1,17 @@
+.message-accueil{
+    font-family: 'Bungee', cursive;
+    font-size: 24px;
+    color: #fff;
+    width: 600px;
+    line-height: 500px;
+    text-align: center;
+    margin: 0 auto;
+    animation: showup 7s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}

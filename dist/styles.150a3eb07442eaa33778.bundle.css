@@ -1,0 +1,1 @@
+body{margin:0;padding:0;-webkit-animation:bgSlider 60s infinite;animation:bgSlider 60s infinite}@-webkit-keyframes bgSlider{0%{background:#72c92c}25%{background:#26c0b6}50%{background:#075eec}75%{background:#dac303}to{background:#f15906}}@keyframes bgSlider{0%{background:#72c92c}25%{background:#26c0b6}50%{background:#075eec}75%{background:#dac303}to{background:#f15906}}
